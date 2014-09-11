@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "AO MVP": {
+            "applicationId": "YW6l3lkucW6AZQVsSc9HU6aOfFl9gUpU1Sf82SCF", 
+            "masterKey": "PNgBVgTrr4UYAUjaUZDBT0UKjYsWkaCxHUNX9QbJ"
+        }, 
+        "_default": {
+            "link": "AO MVP"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.0"
+    }
+}
