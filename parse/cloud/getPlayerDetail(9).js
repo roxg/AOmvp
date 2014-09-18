@@ -117,11 +117,8 @@ try {
   if (XHRPlayerDetailResponse.body.length > 0) {
     var map = new Map();
     //console.log('playerDetailArr '+JSON.stringify(playerDetailArr));
-    var playJsonArr = [];
     var finalArr = [];
     //console.log(playerDetailArr.length);
-    
-    //console.log(playJsonArr);
     playerDetailArr = [];
     playerDetailArr = getPlayerMap(XHRSportsResponse, XHRVenuesResponse, XHRPlayerDetailResponse, map);
     for (i = 0; i < map.keys.length; i++) {
@@ -168,7 +165,6 @@ try {
   } else {
     //var finalArr = [];
     response.success(finalArr, "application/json");
-    //playJsonArr.push(XHRUserDetailResponse);
   }
 } catch (e) {
   var finalArr = [];
